@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nexteven/public_html/
+    - /bin/cp -u -r * $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
